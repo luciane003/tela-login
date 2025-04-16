@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vuelvess</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="./src/imagens/favicon-32x32.png">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+<body>
+    <main class="principal">
+        <header class="titulo">
+            <h1>VUELVESS</h1>
+        </header>
+
+        <section class="conteudo">
+            <div class="saudacao">
+                <h1 class="titulo-bemvindo">Bem-Vindo (a) à Vuelvess!</h1>
+                <p class="texto"> 
+                Você está no lugar certo para encontrar roupas modernas, elegantes e cheias de estilo. Aproveite 70% de desconto em sua primeira compra e descubra peças perfeitas para presentear a si mesmo(a) ou a quem você ama.
+                Desejamos uma excelente experiência de compra!
+                </p>
+            </div>
+
+            <div class="login">
+                <form onsubmit="event.preventDefault(); alert('login simulado com sucesso!');" method="post" class="usuario"> 
+                    <h2 class="subtitulo">LOGIN DO USUÁRIO</h2>
+
+                    <div class="campo email">   
+                        <img src="src/imagens/perfil-de-usuario (1).png" alt="usuario" class="imagem-email" >
+                        <input type="email" name="email" placeholder="Digite seu email aqui" required class="input email">
+                    </div>   
+            
+                    <div class="campo senha">
+                        <img src="./src/imagens/cadeado.png" alt="cadeado" class="imagem-senha">
+                        <input type="password" name="senha" placeholder="Digite sua senha aqui" required  class="input senha">
+                    </div> 
+
+                    <div class="opcoes-senha"> 
+                        <div class="primeira-opcao"> 
+                            <input id="lembrar-senha" type="checkbox" name="lembrar-senha" class="caixa-alternativa">
+                            <label for="lembrar-senha">Lembrar senha</label>
+                        </div> 
+
+                        <a href="#" class="segunda-opcao">Esqueceu senha?</a>
+                    </div>
+            
+                    <button type="submit" class="acesso">LOGIN</button>
+                </form>  
+            </div> 
+        </section>      
+    </main>
+</body>
+
+<!-- Créditos ao site flaticon -->
+<!-- <a href="https://www.flaticon.com/br/icones-gratis/perfil-de-usuario" title="perfil de usuário ícones">Perfil de usuário ícones criados por Verian's - Flaticon</a>  -->
+</html>
+
