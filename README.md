@@ -29,7 +29,7 @@ Para isso, utilizei media queries e Flexbox, permitindo a reorganização dos el
 
 
 ## Visualização
-![Demonstração do projeto](./src/imagens/gif-projeto/tela-login ‐ Feito com o Clipchamp.gif)
+![Demonstração do projeto](./src/imagens/gif-projeto/tela-login‐Feito com o Clipchamp.gif)
 
 ### Contato
 Para mais informações entre em contato comigo!
