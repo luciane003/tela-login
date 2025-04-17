@@ -1,5 +1,6 @@
 body {
     background-image: url('../imagens/Imagem-fundo.png');
+    background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;  
 }
@@ -10,10 +11,10 @@ body {
     text-align: center;
     flex-direction: column;
     justify-content: center;
-    width: 90%;
-    max-width: 1200px;
+    width: 100%;
+    max-width: 1920px;
     margin: 0 auto;
-    min-height: 80vh;
+    min-height:100vh;
 }
 
 .titulo {
