@@ -6,20 +6,28 @@
 
 @media (max-width: 900px) {
     .principal {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
+        gap: 1em;
+    }
+    .titulo {
+       padding-top: 1em;
     }
 
-    .titulo {
-        margin-top: 2em;
+    .saudacao {
+        max-width: 25em;
     }
+    
     .texto {
        margin: 1em 2em; 
     }
 }
 
 @media (max-width: 700px) {
+    .principal {
+        gap: 0;
+    }
+    .titulo {
+        padding-top: 0;
+    }
     .texto {
         margin: 1em; 
     }
@@ -35,17 +43,13 @@
     }
 
     .saudacao {
-        width: 30em;
+        max-width: 30em;
         border-top-right-radius: 10%;
         border-bottom-left-radius: 0;
     }
 
-    .titulo {
-        margin-bottom: 2em;
-    }
-    
     .texto {
-        margin: 1em 3em;
+        margin: 2em 3em;
     }
 
     .login {
@@ -56,22 +60,30 @@
 
 @media (max-width: 450px) {
     .saudacao {
-        width: 26em;
-        height: 45em;
+        width: 25em;
+        height: 35em;
+    }
+
+    .texto {
+        margin: 2em;
     }
 
     .login {
-        width: 26em;
+        width: 25em;
     }
 }
 
 @media (max-width: 400px) {
     .saudacao {
-        width: 24em;
-        height: 47em;
+        width: 23em;
+        height: 35em;
+    }
+
+    .texto {
+        margin: 2em;
     }
 
     .login {
-        width: 24em;
+        width: 23em;
     }
 }

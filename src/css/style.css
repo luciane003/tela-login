@@ -10,7 +10,7 @@ body {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
@@ -20,8 +20,8 @@ body {
 .titulo {
     color: white;
     letter-spacing: 5px;
-    font-size: clamp(33px, 5vw, 38px); 
-    margin-bottom: 2em;
+    font-size: clamp(33px, 5vw, 35px); 
+    margin: 1em;
 }
 
 .titulo, .titulo-bemvindo {
@@ -37,23 +37,23 @@ body {
 .saudacao {
     background-image: url('../imagens/imagem-fundo-2.png');
     background-position: right;
-    max-width: 40em;
+    max-width: 35em;
     width: 100%;
-    height: 35em;
+    height: 30em;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
 }
 
 .titulo-bemvindo {
     font-size: 2em;
-    padding-top: 4em;
-    letter-spacing: 2px;
+    padding-top: 2.5em;
+    letter-spacing: 1px;
 }
 
 .texto {
-    margin: 2em 5em;
-    font-size: 24px; 
+    font-size: 22px; 
     text-align: left;
+    margin: 2em 3em;
 }
 
 .texto, .primeira-opcao, .segunda-opcao, .acesso {
@@ -64,7 +64,7 @@ body {
     background-color: white;
     max-width: 30em;
     width: 100%;
-    height: 35em;
+    height: 30em;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
 }
@@ -76,7 +76,7 @@ body {
 }
 
 .subtitulo {
-    padding-top: 7em;
+    padding-top: 4em;
     padding-bottom: 20px;    
 }
 
