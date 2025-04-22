@@ -29,7 +29,7 @@ Para isso, utilizei media queries e Flexbox, permitindo a reorganização dos el
 
 
 ## Visualização
-![Demonstração do projeto](./src/imagens/gif-projeto/tela-login-visualização.gif)
+![Demonstração do projeto](./src/design/tela-login-visualização.gif)
 
 ### Contato
 Para mais informações entre em contato comigo!
