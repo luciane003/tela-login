@@ -1,6 +1,6 @@
 # Vuelvess - Página de Login💻
 
-## Sobre o projeto
+## Descrição
 Este é um projeto visual de uma página de login da loja Vuelvess, especializada em roupas estilosas e variadas para todos os gêneros.
 No topo da página, estará o nome da loja.
 Abaixo, o layout será dividido em duas seções:
@@ -15,6 +15,19 @@ Ao clicar no botão "Login", será exibido um alerta informando que se trata ape
 Sinceramente, esse projeto foi bem tranquilo de desenvolver.
 A única dificuldade que encontrei foi ao trabalhar com as propriedades relative e absolute, mas percebo que estou evoluindo — quanto mais desafios aparecem, mais eu gosto de enfrentá-los e encontrar soluções. Essa sensação de “desenrolar” os problemas me motiva ainda mais a continuar aprendendo.
 
+## Responsividade
+O layout é totalmente responsivo, proporcionando uma ótima experiência de uso em diferentes tamanhos de tela, desde dispositivos móveis até desktops.
+Para isso, utilizei media queries e Flexbox, permitindo a reorganização dos elementos conforme a largura da tela.
+
+## Projeto no ar
+Acesse a versão online do [projeto.](https://luciane003.github.io/tela-login/)
+
+## Funcionalidades
+- Layout responsivo
+- Seção de boas vindas
+- Botão para logar
+- Opções de "lembrar senha" e "esqueceu senha"
+- Assim que envia os dados, ele avisa que foi enviado por uma mensagem
 
 ## Tecnologias utilizadas
 <div style="display: inline_block">
@@ -22,19 +35,21 @@ A única dificuldade que encontrei foi ao trabalhar com as propriedades relative
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div><br>
 
-
-## Responsividade
-O layout é totalmente responsivo, proporcionando uma ótima experiência de uso em diferentes tamanhos de tela, desde dispositivos móveis até desktops.
-Para isso, utilizei media queries e Flexbox, permitindo a reorganização dos elementos conforme a largura da tela.
-
+## Como visualizar o projeto localmente
+### Clone o repositório
+git clone 
+### Abra o arquivo index.html no navegador
 
 ## Visualização
 ![Demonstração do projeto](./src/design/tela-login-visualização.gif)
 
-### Contato
+### Autora
+- Luciane Kellen
 Para mais informações entre em contato comigo!
 
 <div style="display: inline_block"><br> 
   <a href="https://www.linkedin.com/feed/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
   <a href="https://wa.me/5517996417374" target="_blank"><img  height="40" width="40" src="https://github.com/user-attachments/assets/da75e70c-b550-4684-8548-ff61fecc7c7e" target="_blank"></a>
 </div>
+
+- Feito como parte do meu processo de aprendizagem em desenvolvimento frontend.
