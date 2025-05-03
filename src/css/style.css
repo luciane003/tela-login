@@ -12,7 +12,6 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    max-width: 1920px;
     margin: 0 auto;
     min-height:100vh;
 }
@@ -20,8 +19,8 @@ body {
 .titulo {
     color: white;
     letter-spacing: 5px;
-    font-size: clamp(33px, 5vw, 35px); 
-    margin: 1em;
+    font-size: 3rem; 
+    margin: 1rem;
 }
 
 .titulo, .titulo-bemvindo {
@@ -37,16 +36,15 @@ body {
 .saudacao {
     background-image: url('../imagens/imagem-fundo-2.png');
     background-position: right;
-    max-width: 35em;
-    width: 100%;
-    height: 30em;
+    width: 35rem;
+    height: 30rem;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
 }
 
 .titulo-bemvindo {
-    font-size: 2em;
-    padding-top: 2.5em;
+    font-size: 2rem;
+    padding-top: 4rem;
     letter-spacing: 1px;
 }
 
@@ -62,8 +60,7 @@ body {
 
 .login {
     background-color: white;
-    max-width: 30em;
-    width: 100%;
+    width: 35rem;
     height: 30em;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -108,7 +105,6 @@ body {
 }
 
 .input.email, .input.senha {
-    max-width: 290px;
     width: 100%;
     height: 50px;
     padding-left: 65px;
