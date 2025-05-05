@@ -2,6 +2,10 @@
     .saudacao, .login {
         width: 35rem;
     }
+
+    .texto {
+        margin: 2.8rem 4.8rem;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -24,6 +28,7 @@
 
     .texto {
         font-size: 20px;
+        margin: 2.4rem 3.8rem;
     }
 }
 
@@ -48,11 +53,12 @@
     }
 
     .titulo-bemvindo {
-        font-size: 3.9rem;
+        font-size: 4.3rem;
     }
 
     .texto {
        font-size: 2.2rem; 
+       margin: 2rem 6rem;
     }
 
     .login {
@@ -94,7 +100,7 @@
     }
 
     .titulo-bemvindo {
-        font-size: 3.4rem;  
+        font-size: 3.5rem;  
     }
  
     .texto {
@@ -126,12 +132,12 @@
     }
 
     .titulo-bemvindo {
-        font-size: 2.9rem;
+        font-size: 3rem;
     }
 
     .texto {
         font-size: 26px;
-        margin: 2rem 2.2rem;
+        margin: 2rem 3.2rem;
     }
 
     .input.email, .input.senha {
