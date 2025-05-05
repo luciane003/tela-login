@@ -48,7 +48,7 @@
     }
 
     .titulo-bemvindo {
-        font-size: 3.7rem;
+        font-size: 3.9rem;
     }
 
     .texto {
@@ -94,7 +94,7 @@
     }
 
     .titulo-bemvindo {
-        font-size: 3rem;  
+        font-size: 3.4rem;  
     }
  
     .texto {
@@ -125,9 +125,13 @@
         font-size: 2.3rem;
     }
 
+    .titulo-bemvindo {
+        font-size: 2.9rem;
+    }
+
     .texto {
-        font-size: 27px;
-        margin: 2em;
+        font-size: 26px;
+        margin: 2rem 2.2rem;
     }
 
     .input.email, .input.senha {
@@ -152,7 +156,7 @@
     }
 
     .titulo-bemvindo {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
     .subtitulo {
@@ -170,12 +174,21 @@
 }
 
 @media (max-width:435px) {
+    .saudacao {
+        height: 32rem;
+    }
+
     .texto {
-        font-size: 22px;
+        font-size: 20px;
+        margin: 2rem 3rem;
     }
 
     .login {
         height: 35rem;
+    }
+
+    .primeira-opcao, .segunda-opcao {
+        font-size: 14px;
     }
 }
 
@@ -186,15 +199,23 @@
 
     .saudacao, .login {
         width: 20rem;
-        height: 35rem;
+    }
+
+    .saudacao {
+        height: 29rem;
     }
 
     .titulo-bemvindo {
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 
     .texto {
-        margin: 1.5rem;
+        font-size: 17px;
+        margin: 2rem 2.5rem;
+    }
+
+    .login {
+        height: 32rem;
     }
 
     .primeira-opcao {
@@ -204,11 +225,12 @@
 
 @media (max-width: 376px) {
     .saudacao {
-        height: 32rem;
+        height: 30rem;
     }
 
     .texto {
-        font-size: 20px;
+        font-size: 18px;
+        margin: 2rem 2.4rem;
     }
 }
 
@@ -232,7 +254,12 @@
     }
 
     .titulo-bemvindo {
-        font-size: 3rem;
+        font-size: 3.1rem;
+    }
+
+
+    .texto {
+        margin: 3rem 5.3rem;
     }
 
     .texto, .subtitulo {
@@ -255,5 +282,9 @@
 
     .primeira-opcao {
         margin-right: 15rem;
+    }
+
+    .primeira-opcao, .segunda-opcao {
+        font-size: 22px;
     }
 } 

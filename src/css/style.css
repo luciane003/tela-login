@@ -51,7 +51,7 @@ body {
 .texto {
     font-size: 22px; 
     text-align: left;
-    margin: 2em 3em;
+    margin: 2rem 3rem;
 }
 
 .texto, .primeira-opcao, .segunda-opcao, .acesso {
