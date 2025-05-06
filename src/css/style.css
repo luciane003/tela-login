@@ -156,6 +156,7 @@ label:before {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: #ce2c90;
     width: 130px;
     height: 40px;
