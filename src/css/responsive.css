@@ -1,8 +1,4 @@
 @media (max-width: 1280px) {
-    .conteudo {
-        margin-top: 2rem;
-    }
-
     .saudacao, .login {
         width: 35rem;
     }
