@@ -20,7 +20,7 @@ O layout é totalmente responsivo, proporcionando uma ótima experiência de uso
 Para isso, utilizei media queries e Flexbox, permitindo a reorganização dos elementos conforme a largura da tela.
 
 ## Projeto no ar
-Acesse a versão online do [projeto.](https://luciane003.github.io/tela-login/)
+Acesse a versão online do [projeto.](https://tela-login-delta-nine.vercel.app/)
 
 ## Funcionalidades
 - Layout responsivo
